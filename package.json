@@ -1,0 +1,27 @@
+{
+  "name": "iSearchr",
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarretKern/iSearchr.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/GarretKern/iTrie#readme",
+  "dependencies": {
+    "chartist": "^0.11.0",
+    "chartist-plugin-legend": "^0.6.2",
+    "electron": "^3.0.9",
+    "moment": "^2.22.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "electron-builder": "^20.34.0"
+  }
+}
